@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.jada.keeper_2.MatchSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="#474747"
+        android:orientation="horizontal">
+
+    <Spinner
+        android:id="@+id/game_spinner2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="#474747"
+        android:textColor="#FFFFFF"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.01
+        "/>
+
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:background="@drawable/plus_32"
+            android:id="@+id/add_new_activity"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:id="@+id/team_members_list_view"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/match_button"
+        android:layout_height="0dp"
+        android:text="GO TO MATCH"
+        android:layout_weight="0.4"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_weight="0.1"/>
+
+</LinearLayout>
+
+

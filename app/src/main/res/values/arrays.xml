@@ -1,0 +1,16 @@
+<resources>
+    <string-array name="add_user_options">
+        <item>Manual Entry</item>
+        <item>Choose From Facebook</item>
+        <item>Choose From Contacts</item>
+    </string-array>
+
+    <string-array name="sample_groups">
+        <item>FAMILY</item>
+        <item>CATAN WEEKLY</item>
+        <item>WORK</item>
+        <item>WORK FOOZ</item>
+        <item>SCHOOL FOOZ</item>
+    </string-array>
+
+</resources>

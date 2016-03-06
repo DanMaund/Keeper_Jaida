@@ -1,0 +1,241 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e2e2e2"
+        tools:context="com.example.jada.keeper_2.AddMatchType">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/amt_enter_match_type_name"
+            android:text=""
+            android:hint="ACTIVITY NAME"
+            android:layout_weight="1.2"
+            android:paddingLeft="8dp"
+            android:singleLine="true"
+            android:background="#FFFFFF"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="@string/score_view_type"
+                android:layout_marginLeft="2sp"
+                android:gravity="left|center_vertical"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:layout_weight="0.2"/>
+
+            <Spinner
+                android:id="@+id/amt_score_view_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.2"
+                android:background="#474747"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="@string/score_increment"
+                android:layout_marginLeft="2sp"
+                android:gravity="left|center_vertical"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:layout_weight="0.2"/>
+
+            <Spinner
+                android:id="@+id/amt_si_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.2"
+                android:background="#474747"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="Starting score"
+                android:layout_marginLeft="2sp"
+                android:gravity="left|center_vertical"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"/>
+
+            <EditText
+                android:id="@+id/starting_score_edit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.2"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="@string/win_condition"
+                android:paddingLeft="2dp"
+                android:gravity="left|center_vertical"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:layout_weight="0.2"/>
+
+            <Spinner
+                android:id="@+id/amt_win_condition_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.2"
+                android:background="#474747"
+                android:textColor="#FFFFFF"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:layout_weight="0.2"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="@string/time_constraint"
+                android:layout_marginLeft="2sp"
+                android:gravity="left|center_vertical"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:layout_weight="0.2"/>
+
+            <Spinner
+                android:id="@+id/amt_num_rounds_spinner"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.2"
+                android:background="#474747"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="0.1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:text="OK"
+            android:background="#616161"
+            android:id="@+id/amt_conf_activity" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>

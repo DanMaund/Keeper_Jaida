@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">Keeper_2</string>
+    <string name="app_name">Keeper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_user_home_page">UserHomePage</string>
+    <string name="title_activity_leaderboard_selection">LeaderboardSelection</string>
+    <string name="title_activity_match_selection">MatchSelection</string>
+    <string name="title_activity_match">Match</string>
+    <string name="title_activity_team_select">TeamSelect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="add_a_user">Add User</string>
+    <string name="title_activity_user_manual_entry">UserManualEntry</string>
+    <string name="add_to_group">Add to group</string>
+    <string name="title_activity_add_match_type">AddMatchType</string>
+    <string name="title_activity_my_groups">MyGroups</string>
+    <string name="num_players">number_of_players</string>
+    <string name="max_players">max_players</string>
+    <string name="win_condition">win condition</string>
+    <string name="win_mechanism">win mechanism</string>
+    <string name="num_rounds">Number of rounds</string>
+    <string name="time_constraint">Time Constraints</string>
+    <string name="score_increment">Default Score Increment</string>
+    <string name="score_view_type">Scoring View Type</string>
+    <string name="title_activity_choose_group_members">ChooseGroupMembers</string>
+    <string name="title_activity_add_from_facebook">AddFromFacebook</string>
+    <string name="title_activity_select_players_and_teams">SelectPlayersAndTeams</string>
 </resources>
